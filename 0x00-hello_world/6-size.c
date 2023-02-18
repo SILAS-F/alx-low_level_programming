@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ * main - Thisis the main funtion
+ *
+ * Return: 0 on success
+ */
+
+int main(void)
+{
+	printf("Size of char: %lu byte(s)", sizeof(char));
+	printf("size of int: %lu bytes(s)", sizeof(int));
+	printf("size of long int: %lu bytes(s)", sizeof(long int));
+	printf("size of a long long int: %lu bytes(s)", sizeof(long long int));
+	printf("Size of a float: %lu bytes(s)", sizeof(float));
+	return (0);
+}
