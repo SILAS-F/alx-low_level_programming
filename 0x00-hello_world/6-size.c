@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Thisis the main funtion
+ * main - This is the main funtion
  *
  * Return: 0 on success
  */
+
 int main(void)
-{	
+{
 	char a;
 	int b;
 	long int c;
@@ -18,5 +19,6 @@ int main(void)
 	printf("size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
 	printf("size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
 	printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
+
 	return (0);
 }
