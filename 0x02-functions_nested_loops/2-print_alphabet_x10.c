@@ -3,10 +3,12 @@
 /**
  * print_alphabet_10x - function that prints 10x alphabets
  *
+ * description: print_alphabet_10x
+ *
  * Return: always 0
  */
+void print_alphabet_10x(void)
 
-void print_alphabet_x10(void)
 {
 	int i;
 	char j;
